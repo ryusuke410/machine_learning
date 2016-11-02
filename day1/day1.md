@@ -17,7 +17,7 @@
   docker:~$ ls ~
   ```
 
-* From the result of the above command, you can infer what directory
+* From the result of the above command, you can guess what directory
   of your host OS is used as the home directory of docker prompt.
   Write the directory as `DOCKER~`.
   
