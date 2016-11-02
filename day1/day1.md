@@ -6,10 +6,10 @@
 
 ###  Docker
 
-* `~` is the abbrebiation of the home directory of the user.
+* `~` abbreviates the home directory of the user.
 
-* Type `ls ~` in docker prompt, that is
-  Then you can know the contents of the home directory.
+* Type `ls ~` in the docker prompt, then you can know the contents of
+  the home directory.
 
 * The following denotes the command on docker prompt:
   
@@ -21,13 +21,13 @@
   of your host OS is used as the home directory of docker prompt.
   Write the directory as `DOCKER~`.
   
-* In your host, create a directory, say `DOCKER/atom/` for sharing:
+* In your host, create a directory, say `DOCKER~/atom/` for sharing:
   
   ```
   docker:~$ mkdir ~/atom
   ```
   
-* In docker, run the tesorflow image mounting `atom/
+* In docker, run the tesorflow image mounting `DOCKER~/atom/`
   
   ```
   docker:~$ docker run -v ~/atom:/root/atom -it <tensorflow image>
@@ -62,7 +62,7 @@ image.
   [2]+  Stopped                 ipython
   ```
   
-  In this case, you can return to the procedure with `%2` or kill it
+  In this case, you can return to the procedure with `%2`, or kill it
   with `kill %2`.
 
 * In a python interpreter, you can load a source file with 
