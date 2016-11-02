@@ -80,6 +80,7 @@ image.
 
 ### class
 
-See [MyClass.py](./MyClass.py "MyClass.py") `./MyClass.py` to enjoy some experiments with class in python.
+See [MyClass.py](./MyClass.py "MyClass.py") to enjoy some experiments
+with class in python.
 (This experiments is based on [python tutorial](
-    https://docs.python.org/3/tutorial/classes.html "class")).
+https://docs.python.org/3/tutorial/classes.html "class")).
