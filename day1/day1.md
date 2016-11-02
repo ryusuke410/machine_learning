@@ -65,7 +65,7 @@ image.
   In this case, you can return to the procedure with `%2`, or kill it
   with `kill %2`.
 
-* In a python interpreter, you can load a source file with 
+* In a python*2* interpreter, you can load a source file with 
   `execfile(<file name>)`, where `<file name>` must be a string,
   say, `"~/atom/mysource.py"` For example,
   
@@ -76,6 +76,13 @@ image.
   may run the python commands in `~/atom/mysource.py` and so the
   variables or methods defined in the sourcefile will be available
   in current python interpreter.
+  
+* For python3, use the following instead:
+  
+  ```python
+  with open(<file name>) as f:
+      exec(f.read())
+  ```
 
 
 ### class
