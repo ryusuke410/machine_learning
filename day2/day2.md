@@ -12,3 +12,7 @@
 
 ## introduction to tensorflow and numpy
 See [day2.ipynb](./day2.ipynb "day2.ipynb")
+(for mobile phones
+    [day2.ipynb](
+    http://nbviewer.jupyter.org/github/ryusuke410/machine_learning/blob/master/day2/day2.ipynb
+    "day2.ipynb")).
